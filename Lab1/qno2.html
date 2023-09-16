@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question number 2</title>
+</head>
+<body>
+    <h2>User Information Form</h2>
+    <form action="#" method="post">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="tel" id="contact_number" name="contact_number" pattern="[0-9]{10}" required><br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <select id="hobbies" name="hobbies[]" multiple>
+            <option value="reading">Reading</option>
+            <option value="gardening">Gardening</option>
+            <option value="sports">Sports</option>
+            <option value="cooking">Cooking</option>
+            <option value="traveling">Traveling</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+</body>
+</html>
